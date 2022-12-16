@@ -217,6 +217,12 @@ Menu
   padding-top: 1rem;
 }
 
+.item-out-of-stock-text{
+  margin-bottom: 0;
+  padding-top: 1rem;
+  color: var(--clr-red-dark)
+}
+
 @media screen and (min-width: 768px) {
   .menu-item {
     grid-template-columns: 225px 1fr;

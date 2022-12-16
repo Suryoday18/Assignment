@@ -4,7 +4,7 @@ const Menu = ({ items }) => {
   return (
     <div className='section-center'>
       {items.map((menuItem) => {
-        const { id, name, vendor, img, price } = menuItem;
+        const { id, name, vendor, img, price, available } = menuItem;
         return (
           <article key={id} className='menu-item'>
             <img src={img} alt={name} className='photo' />
@@ -14,6 +14,7 @@ const Menu = ({ items }) => {
                 <h4 className='price'>${price}</h4>
               </header>
               <p className='item-text'>{vendor}</p>
+               {available > 0 ? <p className='item-text'>In Stock:{available}</p> : <p className='item-out-of-stock-text'> Sorry out of stock</p>} 
             </div>
           </article>
         );
