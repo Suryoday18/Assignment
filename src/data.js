@@ -5,6 +5,7 @@ const products = [
         "price":30,
         "available":1,
         "vendor":"Himachal Pvt Ltd",
+        "img": './images/veg1.jpeg',
         "category":"Vegtables"
     },
     {
@@ -13,6 +14,7 @@ const products = [
             "price":50,
             "available":1,
             "category":"Fruits",
+            "img": './images/fruit1.jpg',
             "vendor": "Organic farms"
     },
     {
@@ -21,6 +23,7 @@ const products = [
         "price":20,
         "available":0,
         "category":"Vegetables",
+        "img": './images/veg2.jpg',
         "vendor":"Mallikarjuna farms"
     
     },
@@ -30,6 +33,7 @@ const products = [
         "price":25,
         "available":1,
         "vendor":"Nagpur farms",
+        "img": './images/fruit2.jpeg',
         "category":"Fruits"
     },
     
