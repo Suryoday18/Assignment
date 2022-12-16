@@ -6,7 +6,7 @@ const products = [
         "available":1,
         "vendor":"Himachal Pvt Ltd",
         "img": './images/veg1.jpeg',
-        "category":"Vegtables"
+        "category":"Vegetables"
     },
     {
             "name":"Banana",
